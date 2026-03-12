@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: abc-hp
+Version: 1.0.0
+Summary: Adaptive Bias-Corrected Hotspot Prediction System — road accident risk detection using multi-source data fusion and spatio-temporal machine learning.
+Author: ABC-HP Contributors
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: dev
+Provides-Extra: dl
+Provides-Extra: geo
+Provides-Extra: ml
+Provides-Extra: viz
+
+# dmt
