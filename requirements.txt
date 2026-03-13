@@ -1,0 +1,35 @@
+# Core data science
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+
+# Geospatial
+geopandas>=0.14; sys_platform != "emscripten"
+shapely>=2.0; sys_platform != "emscripten"
+pyproj>=3.6; sys_platform != "emscripten"
+osmnx>=1.6; sys_platform != "emscripten"
+
+# H3 spatial grid
+h3>=3.7
+
+# Machine learning boosting
+xgboost>=2.0
+
+# Deep learning (LSTM base model — optional)
+tensorflow>=2.13; sys_platform != "emscripten"
+
+# Hyper-parameter optimisation
+optuna>=3.3
+
+# Visualisation
+folium>=0.15
+matplotlib>=3.7
+plotly>=5.15
+dash>=2.12
+
+# Spatial weights for spatial-lag features
+libpysal>=4.8
+
+# Testing
+pytest>=7.4
+pytest-cov>=4.1
